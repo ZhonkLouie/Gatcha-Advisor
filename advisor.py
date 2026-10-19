@@ -14,4 +14,5 @@ while adding_agents:
         if user_cont.upper() == "N":
             adding_agents = False
 
-print(owned_agents)
+for i in owned_agents:
+    print(f"{i} is an {agent_list[i]["element"]} {agent_list[i]["class"]} from {agent_list[i]["faction"]}")
