@@ -30,3 +30,5 @@ agent_list = {
         "faction": "Stars of Lyra"
     }
 }
+
+banner_chr = "Astra"
